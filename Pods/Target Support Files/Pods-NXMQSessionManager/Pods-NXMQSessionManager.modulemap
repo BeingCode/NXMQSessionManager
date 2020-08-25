@@ -1,0 +1,6 @@
+framework module Pods_NXMQSessionManager {
+  umbrella header "Pods-NXMQSessionManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,35 @@
+PODS:
+  - MQTTClient (0.15.3):
+    - MQTTClient/Core (= 0.15.3)
+  - MQTTClient/Core (0.15.3):
+    - MQTTClient/Manager
+    - MQTTClient/Min
+  - MQTTClient/Manager (0.15.3):
+    - MQTTClient/Min
+  - MQTTClient/Min (0.15.3)
+  - OpenUDID (1.0.1)
+
+DEPENDENCIES:
+  - MQTTClient
+  - "OpenUDID (from `git@git.51ysscw.cn:pods/openudid.git`)"
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MQTTClient
+
+EXTERNAL SOURCES:
+  OpenUDID:
+    :git: "git@git.51ysscw.cn:pods/openudid.git"
+
+CHECKOUT OPTIONS:
+  OpenUDID:
+    :commit: 953995ba2604e03358d3fe89b0bb64a10e4b5736
+    :git: "git@git.51ysscw.cn:pods/openudid.git"
+
+SPEC CHECKSUMS:
+  MQTTClient: 0dfa04e789479c2e461786464969895c1fcb0875
+  OpenUDID: d8d5fd09d50eaa1ddd1f6fa9fe97e41d7bf63130
+
+PODFILE CHECKSUM: 31b402ed0eabe3bf729bdf983b29cd2537f148f8
+
+COCOAPODS: 1.9.3
